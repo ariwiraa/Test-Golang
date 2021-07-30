@@ -18,7 +18,5 @@ func main() {
 	if suffix == "PM" && h != 12 {
 		h += 12
 	}
-
 	fmt.Printf("%02d:%02d:%02d", h, m, s)
-
 }
